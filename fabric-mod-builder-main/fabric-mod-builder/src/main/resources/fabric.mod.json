@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "essentials_like",
+  "version": "${version}",
+  "name": "Essentials Like",
+  "description": "Essentials風の多機能ユーティリティMod（Minecraft 1.20.1 / Fabric）",
+  "authors": [],
+  "license": "MIT",
+  "icon": "assets/essentials_like/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.essentialslike.EssentialsLikeMod"],
+    "client": ["net.essentialslike.EssentialsLikeModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
